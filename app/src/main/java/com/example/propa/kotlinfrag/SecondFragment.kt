@@ -18,6 +18,7 @@ import android.view.ViewGroup
  * create an instance of this fragment.
  */
 class SecondFragment :
+//muestra un layout con un text view que recoje el valor de text y lo muestra
         Fragment() {override fun onCreateView(inflater: LayoutInflater?, container: ViewGroup?,savedInstanceState: Bundle?): View? {
     // Inflate the layout for this fragment
     return inflater!!.inflate(R.layout.fragment_second, container, false)

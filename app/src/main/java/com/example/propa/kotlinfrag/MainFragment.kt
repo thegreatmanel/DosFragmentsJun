@@ -21,6 +21,7 @@ import org.jetbrains.anko.support.v4.toast
  * create an instance of this fragment.
  */
  class MainFragment:Fragment() {
+    //este fragment es mostrado por el primer layout y a su vez muestra su propio layout
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -31,7 +32,7 @@ import org.jetbrains.anko.support.v4.toast
         return inflater?.inflate(R.layout.fragment_main, container)
     }
 
-
+//muestra un toast e inicia la Activity datos
     override fun onViewCreated(view: View?, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
